@@ -2,9 +2,12 @@ package net.malarky.monkeymod;
 
 import com.mojang.logging.LogUtils;
 import net.malarky.monkeymod.block.ModBlocks;
+import net.malarky.monkeymod.entity.ModEntities;
+import net.malarky.monkeymod.entity.client.GorillaRenderer;
 import net.malarky.monkeymod.item.ModCreativeModeTabs;
 import net.malarky.monkeymod.item.ModItems;
 import net.malarky.monkeymod.sounds.ModSounds;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -16,6 +19,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import javax.swing.text.html.parser.Entity;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MonkeyMod.MOD_ID)
@@ -37,6 +42,8 @@ public class MonkeyMod {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModEntities.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -59,6 +66,7 @@ public class MonkeyMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.GORILLA.get(), GorillaRenderer::new);
 
         }
     }

@@ -32,6 +32,10 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.RETURN_TO_MONKE_DISC.get());
 
+                        // Spawn Eggs
+
+
+
                     })
 
                     .build());

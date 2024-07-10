@@ -51,6 +51,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.RETURN_TO_MONKE_DISC);
 
+        // Spawn Eggs
+
+
+
     }
 
     // Shoutout to El_Redstoniano for making this
