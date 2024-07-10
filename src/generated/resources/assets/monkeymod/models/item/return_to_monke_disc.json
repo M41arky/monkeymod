@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "monkeymod:item/return_to_monke_disc"
+  }
+}

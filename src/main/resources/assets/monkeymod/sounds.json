@@ -1,0 +1,10 @@
+{
+  "return_to_monke": {
+    "sounds": [
+      {
+        "name": "monkeymod:return_to_monke",
+        "stream": true
+      }
+    ]
+  }
+}
