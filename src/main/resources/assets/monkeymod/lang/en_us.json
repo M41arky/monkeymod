@@ -1,5 +1,12 @@
 {
 
+  "item.monkeymod.monkey_puzzle_log": "Monkey Puzzle Log",
+  "item.monkeymod.stripped_monkey_puzzle_log": "Stripped Monkey Puzzle Log",
+  "item.monkeymod.monkey_puzzle_wood":  "Monkey Puzzle Wood",
+  "item.monkeymod.stripped_monkey_puzzle_wood": "Stripped Monkey Puzzle Wood",
+
+  "item.monkeymod.monkey_puzzle_leaves": "Monkey Puzzle Leaves",
+
   "item.monkeymod.banana": "Banana",
 
   "item.monkeymod.return_to_monke_disc": "Return To Monke",

@@ -1,6 +1,7 @@
 package net.malarky.monkeymod.datagen;
 
 import net.malarky.monkeymod.MonkeyMod;
+import net.malarky.monkeymod.block.ModBlocks;
 import net.malarky.monkeymod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -26,6 +27,16 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.RETURN_TO_MONKE_DISC.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.MONKEY_PUZZLE_LOG.get().asItem())
+                .add(ModBlocks.MONKEY_PUZZLE_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_MONKEY_PUZZLE_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_MONKEY_PUZZLE_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.MONKEY_PUZZLE_PLANKS.get().asItem());
+
 
     }
 }

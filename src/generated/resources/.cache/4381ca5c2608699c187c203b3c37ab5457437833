@@ -1,3 +1,5 @@
-// 1.20.1	2024-07-10T19:03:28.6885837	Tags for minecraft:item mod id monkeymod
+// 1.20.1	2024-07-11T12:03:20.6352235	Tags for minecraft:item mod id monkeymod
 601a72590dd9c1a419282295d09ac42c3e00d0d1 data/minecraft/tags/items/creeper_drop_music_discs.json
+e653aec3368c33f094a05a9efb5a73c639b89099 data/minecraft/tags/items/logs_that_burn.json
 601a72590dd9c1a419282295d09ac42c3e00d0d1 data/minecraft/tags/items/music_discs.json
+03022c96b0aa4b62805e520fd330f72e12b04129 data/minecraft/tags/items/planks.json

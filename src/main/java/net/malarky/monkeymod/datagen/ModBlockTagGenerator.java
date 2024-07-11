@@ -1,6 +1,7 @@
 package net.malarky.monkeymod.datagen;
 
 import net.malarky.monkeymod.MonkeyMod;
+import net.malarky.monkeymod.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -37,6 +38,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         // Needs Wall Tag
 
         this.tag(BlockTags.WALLS);
+
+        // Block Tags
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.MONKEY_PUZZLE_LOG.get())
+                .add(ModBlocks.MONKEY_PUZZLE_WOOD.get())
+                .add(ModBlocks.STRIPPED_MONKEY_PUZZLE_LOG.get())
+                .add(ModBlocks.STRIPPED_MONKEY_PUZZLE_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.MONKEY_PUZZLE_PLANKS.get());
 
 
     }

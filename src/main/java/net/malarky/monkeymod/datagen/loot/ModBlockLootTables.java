@@ -28,6 +28,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         // Add blocks that drop themselves here
 
+        this.dropSelf(ModBlocks.MONKEY_PUZZLE_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_MONKEY_PUZZLE_LOG.get());
+        this.dropSelf(ModBlocks.MONKEY_PUZZLE_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_MONKEY_PUZZLE_WOOD.get());
+        this.dropSelf(ModBlocks.MONKEY_PUZZLE_PLANKS.get());
+
+
+
+
+        // Leaves Drops
+
+        this.add(ModBlocks.MONKEY_PUZZLE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.MONKEY_PUZZLE_LEAVES.get(), NORMAL_LEAVES_SAPLING_CHANCES)); //TODO: CHANGE TO SAPLING!
+
 
 
     }

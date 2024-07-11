@@ -1,1 +1,7 @@
-// 1.20.1	2024-07-10T18:18:28.6765344	Loot Tables
+// 1.20.1	2024-07-11T12:03:20.6362242	Loot Tables
+0da727f43cdb84337d084a653e9368f5d4709916 data/monkeymod/loot_tables/blocks/monkey_puzzle_leaves.json
+6341ad64df7412230c275b9efc2716424e09ed84 data/monkeymod/loot_tables/blocks/monkey_puzzle_log.json
+0558e9defa8a0012be370ccbb512f6afd3d19d64 data/monkeymod/loot_tables/blocks/monkey_puzzle_planks.json
+c8b73f777066584e2069d6c62a5bb9483342806a data/monkeymod/loot_tables/blocks/monkey_puzzle_wood.json
+6c9c77f41401e6d9b27cce60d1f5dae03af4502e data/monkeymod/loot_tables/blocks/stripped_monkey_puzzle_log.json
+94c95d2394e79410acad8b7844d6c9c5e2d37824 data/monkeymod/loot_tables/blocks/stripped_monkey_puzzle_wood.json

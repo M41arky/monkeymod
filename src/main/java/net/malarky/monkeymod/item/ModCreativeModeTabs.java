@@ -24,6 +24,20 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.desert_mod_items"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                        // Blocks
+
+                         // Logs/Wood
+
+                        output.accept(ModBlocks.MONKEY_PUZZLE_LOG.get());
+                        output.accept(ModBlocks.MONKEY_PUZZLE_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_MONKEY_PUZZLE_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_MONKEY_PUZZLE_LOG.get());
+
+                        // Leaves
+
+                        output.accept(ModBlocks.MONKEY_PUZZLE_LEAVES.get());
+
+
                         // Items
 
                         output.accept(ModItems.BANANA.get());
